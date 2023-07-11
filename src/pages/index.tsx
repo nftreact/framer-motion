@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
-    <div style={{ width: '100%', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-      <p style={{ color: '#fff', fontSize: '8rem' }}> framer motion</p>
+    <div className='flex justify-center w-screen h-screen items-center'>
+      <p className='text-[8rem]  text-gray-50'> framer motion</p>
     </div>
   );
 }
